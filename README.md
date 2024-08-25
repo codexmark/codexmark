@@ -15,8 +15,8 @@
 
 ### Sobre Mim
 
-- **Experiência**: Mais de 20 anos de experiência em desenvolvimento de software.
-- **Linguagens**: Delphi, C, C++, Ruby, Ruby on Rails.
+ **Experiência**: Mais de 20 anos de experiência em desenvolvimento de software.
+ **Linguagens**: Delphi, C, C++, Ruby, Ruby on Rails.
 <!-- C -->
 <img align="center" alt="C" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg">
 
@@ -29,36 +29,35 @@
 <!-- Ruby on Rails -->
 <img align="center" alt="Rails" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/rails/rails-plain.svg">
 
-- **Atuação**: Técnico de Suporte Nível II em uma consultoria multinacional com horário flexível. Nas horas vagas, dedico meu tempo a realizar freelancers.
+ **Atuação**: Técnico de Suporte Nível II em uma consultoria multinacional com horário flexível. Nas horas vagas, dedico meu tempo a realizar freelancers.
 
 ### Trajetória Inicial
 
 Comecei minha carreira desenvolvendo cheats para jogos, onde utilizei várias técnicas, incluindo:
 
-- **Injeção em Endereços de Memória**: Manipulação direta da memória do jogo para alterar comportamentos.
-- **Edição de Socket Packs**: Modificação de pacotes de dados enviados e recebidos entre o cliente e o servidor.
-- **Cross-Site Scripting (XSS)**: Exploração de vulnerabilidades em aplicações web para executar scripts maliciosos.
+ **Injeção em Endereços de Memória**: Manipulação direta da memória do jogo para alterar comportamentos.                                        
+ **Edição de Socket Packs**: Modificação de pacotes de dados enviados e recebidos entre o cliente e o servidor.                                      
+ **Cross-Site Scripting (XSS)**: Exploração de vulnerabilidades em aplicações web para executar scripts maliciosos.               
 
 Posteriormente, passei a desenvolver soluções anti-cheat, protegendo os clientes de ataques que eu havia estudado e tinha pleno conhecimento. Essa experiência me proporcionou uma compreensão profunda das vulnerabilidades e das melhores práticas de segurança.
 
 ### Tecnologias que Uso
 
-- **Backend**: Ruby on Rails, C, C++
-- **Frontend**: HTML, CSS, JavaScript
-- **Banco de Dados**: PostgreSQL, MySQL
-- **Ferramentas**:
-  - **OllyDbg**: Um debugger poderoso utilizado para análise de binários e engenharia reversa.
-  - **Decompilers**: Ferramentas que permitem reverter código compilado para um formato legível, facilitando a análise.
-  - **Inspetores de Memória**: Utilizados para monitorar e modificar o estado da memória em tempo real durante a execução de aplicações.
+ **Backend**: Ruby on Rails, C, C++
+ **Frontend**: HTML, CSS, JavaScript
+ **Banco de Dados**: PostgreSQL, MySQL
+ **Ferramentas**:
+   **OllyDbg**: Um debugger poderoso utilizado para análise de binários e engenharia reversa.
+   **Decompilers**: Ferramentas que permitem reverter código compilado para um formato legível, facilitando a análise.
+   **Inspetores de Memória**: Utilizados para monitorar e modificar o estado da memória em tempo real durante a execução de aplicações.
 
 
 
 ### Conecte-se Comigo
 
- [<img src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" />](https://www.linkedin.com/in/raynermesquita) 
+  [<img src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" />](https://www.linkedin.com/in/raynermesquita) 
   [![Facebook](https://img.shields.io/badge/Facebook-%231877F2.svg?style=for-the-badge&logo=Facebook&logoColor=white)](https://facebook.com/seuperfil)
   [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?style=for-the-badge&logo=Instagram&logoColor=white)](https://instagram.com/seuperfil)
-  [![YouTube](https://img.shields.io/badge/YouTube-%23FF0000.svg?style=for-the-badge&logo=YouTube&logoColor=white)](https://www.youtube.com/seuperfil)
   [![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/seuperfil)
 
 
