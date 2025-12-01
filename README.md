@@ -5,13 +5,6 @@
 👨‍💻 Sou um programador experiente com uma carreira que começou em 2004, inicialmente desenvolvendo cheats para jogos. Desde então, tenho explorado diversas tecnologias e linguagens de programação, sempre em busca de soluções inovadoras para os desafios que enfrento.
 
 
-  <div style="display: flex; flex-direction: column; align-items: center; gap: 10px;">
-    <a href="https://github.com/codexmark"> 
-      <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=codexmark&layout=compact&langs_count=7&theme=dracula"/>
-      <img height="180em" src="https://github-readme-stats.vercel.app/api?username=codexmark&show_icons=true&theme=dracula&include_all_commits=true&count_private=true"/>
-    </a>
-  </div>
-
 
 ### Sobre Mim
 
