@@ -48,7 +48,7 @@ Estou construindo o **[Kram](https://github.com/codexmark/kram)**, um runtime *l
     </td>
     <td width="50%" valign="top">
       <h3>◌ Segurança & baixo nível</h3>
-      Engenharia reversa, análise de memória, protocolos de rede, anti-cheat, hardening de aplicações e regras de firewall.
+      Engenharia reversa, análise de memória, protocolos de rede, anti-cheat, hardening de aplicações, regras de firewall e fundamentos CompTIA Security+.
     </td>
   </tr>
   <tr>
@@ -70,6 +70,7 @@ Estou construindo o **[Kram](https://github.com/codexmark/kram)**, um runtime *l
 ![Go](https://img.shields.io/badge/Go-111111?style=flat-square&logo=go&logoColor=E05B66)
 ![C](https://img.shields.io/badge/C-111111?style=flat-square&logo=c&logoColor=E05B66)
 ![C++](https://img.shields.io/badge/C++-111111?style=flat-square&logo=cplusplus&logoColor=E05B66)
+![Delphi](https://img.shields.io/badge/Delphi-111111?style=flat-square&logo=delphi&logoColor=E05B66)
 ![Ruby](https://img.shields.io/badge/Ruby-111111?style=flat-square&logo=ruby&logoColor=E05B66)
 ![Rails](https://img.shields.io/badge/Rails-111111?style=flat-square&logo=rubyonrails&logoColor=E05B66)
 ![Python](https://img.shields.io/badge/Python-111111?style=flat-square&logo=python&logoColor=E05B66)
