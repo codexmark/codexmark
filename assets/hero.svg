@@ -1,0 +1,79 @@
+<svg width="1200" height="520" viewBox="0 0 1200 520" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Rayner Mesquita — Software Engineer</title>
+  <desc id="desc">Dark editorial banner with glossy burgundy forms, code fragments and a minimal presentation of Rayner's work in software engineering, security and intelligent systems.</desc>
+  <defs>
+    <linearGradient id="bg" x1="40" y1="10" x2="1120" y2="560" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#050505"/>
+      <stop offset=".55" stop-color="#101010"/>
+      <stop offset="1" stop-color="#030303"/>
+    </linearGradient>
+    <radialGradient id="redA" cx="0" cy="0" r="1" gradientTransform="translate(858 257) rotate(143) scale(330 223)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#C94A55"/>
+      <stop offset=".18" stop-color="#7E1722"/>
+      <stop offset=".57" stop-color="#33070D"/>
+      <stop offset="1" stop-color="#0A0203"/>
+    </radialGradient>
+    <radialGradient id="redB" cx="0" cy="0" r="1" gradientTransform="translate(1042 65) rotate(128) scale(226 145)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#9F2633"/>
+      <stop offset=".42" stop-color="#3C0910"/>
+      <stop offset="1" stop-color="#080203"/>
+    </radialGradient>
+    <linearGradient id="shine" x1="646" y1="128" x2="1003" y2="408" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFF" stop-opacity=".64"/>
+      <stop offset=".2" stop-color="#FFF" stop-opacity=".04"/>
+      <stop offset=".72" stop-color="#FF8E98" stop-opacity=".11"/>
+      <stop offset="1" stop-color="#FFF" stop-opacity=".28"/>
+    </linearGradient>
+    <filter id="soft" x="-20%" y="-30%" width="140%" height="160%">
+      <feGaussianBlur stdDeviation="22"/>
+    </filter>
+    <filter id="noise" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency=".68" numOctaves="3" seed="22" stitchTiles="stitch" result="n"/>
+      <feColorMatrix in="n" type="saturate" values="0" result="g"/>
+      <feComponentTransfer in="g">
+        <feFuncA type="table" tableValues="0 .09"/>
+      </feComponentTransfer>
+    </filter>
+    <clipPath id="frame">
+      <rect width="1200" height="520" rx="24"/>
+    </clipPath>
+  </defs>
+  <g clip-path="url(#frame)">
+    <rect width="1200" height="520" fill="url(#bg)"/>
+    <ellipse cx="1004" cy="34" rx="230" ry="149" transform="rotate(-19 1004 34)" fill="url(#redB)"/>
+    <path d="M632 244C685 137 807 101 936 136C1069 172 1151 291 1112 384C1072 481 923 501 782 443C655 391 583 342 632 244Z" fill="url(#redA)"/>
+    <path d="M663 229C739 168 856 159 947 207C1036 254 1073 341 1029 397C983 455 867 443 768 391C681 345 614 269 663 229Z" stroke="url(#shine)" stroke-width="2.2" opacity=".72"/>
+    <path d="M714 203C799 178 902 207 951 270C997 330 975 388 916 402C852 417 755 374 714 317C679 267 674 215 714 203Z" fill="#080304" fill-opacity=".48" stroke="#F7A0A8" stroke-opacity=".18"/>
+    <ellipse cx="837" cy="265" rx="140" ry="53" transform="rotate(25 837 265)" fill="#ED6B75" fill-opacity=".12" filter="url(#soft)"/>
+    <path d="M687 198C747 150 841 141 921 167" stroke="#FFD1D5" stroke-opacity=".23" stroke-width="5" stroke-linecap="round" filter="url(#soft)"/>
+    <g opacity=".38" stroke="#BFBFBF" stroke-width=".7">
+      <path d="M56 84H492"/>
+      <path d="M56 451H1144"/>
+      <path d="M566 84V451"/>
+    </g>
+    <g font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif">
+      <text x="56" y="54" fill="#B8B8B8" font-size="12" letter-spacing="2.8">CODEXMARK / PORTFOLIO 2026</text>
+      <circle cx="1129" cy="50" r="4" fill="#C63C49"/>
+      <text x="1142" y="54" fill="#A6A6A6" font-size="11" text-anchor="end">AVAILABLE FOR HARD PROBLEMS</text>
+      <text x="56" y="153" fill="#F4F1EF" font-size="58" font-weight="650" letter-spacing="-2.4">RAYNER</text>
+      <text x="56" y="213" fill="#F4F1EF" font-size="58" font-weight="650" letter-spacing="-2.4">MESQUITA</text>
+      <text x="59" y="255" fill="#C8C5C3" font-size="16" letter-spacing=".6">SOFTWARE ENGINEER / SYSTEMS BUILDER</text>
+      <text x="59" y="324" fill="#E8E4E2" font-size="17">I build reliable software where</text>
+      <text x="59" y="349" fill="#E8E4E2" font-size="17">systems, security and AI meet.</text>
+      <text x="59" y="408" fill="#8F8C8A" font-size="11" letter-spacing="1.8">GO  ·  C/C++  ·  RUBY  ·  PYTHON  ·  JAVASCRIPT</text>
+      <text x="598" y="474" fill="#B7B2B0" font-size="10" letter-spacing="2.3">LOCAL-FIRST / LOW-LEVEL / PRODUCT ENGINEERING</text>
+      <g transform="translate(835 224) rotate(10)">
+        <rect x="0" y="0" width="235" height="122" rx="14" fill="#0A0909" fill-opacity=".76" stroke="#FFF" stroke-opacity=".13"/>
+        <circle cx="20" cy="19" r="3" fill="#D04B57"/>
+        <circle cx="31" cy="19" r="3" fill="#716B69"/>
+        <circle cx="42" cy="19" r="3" fill="#716B69"/>
+        <text x="18" y="48" fill="#8E8885" font-size="10" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">$ kram --workspace ./future</text>
+        <text x="18" y="70" fill="#F0E8E6" font-size="10" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">runtime: local-first</text>
+        <text x="18" y="89" fill="#F0E8E6" font-size="10" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">tools:   mcp + lsp</text>
+        <text x="18" y="108" fill="#D65762" font-size="10" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">status:  building_</text>
+      </g>
+    </g>
+    <rect width="1200" height="520" filter="url(#noise)" opacity=".55"/>
+  </g>
+  <rect x=".75" y=".75" width="1198.5" height="518.5" rx="23.25" stroke="#FFF" stroke-opacity=".08" stroke-width="1.5"/>
+</svg>
