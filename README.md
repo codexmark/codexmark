@@ -6,6 +6,7 @@
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-111111?style=for-the-badge&logo=linkedin&logoColor=E05B66)](https://www.linkedin.com/in/raynermesquita)
 [![Kram](https://img.shields.io/badge/Kram-Public_Beta-7E1722?style=for-the-badge&logo=go&logoColor=white)](https://github.com/codexmark/kram)
+[![Site](https://img.shields.io/badge/kram.codexmark.com.br-111111?style=for-the-badge&logo=vercel&logoColor=E05B66)](https://kram.codexmark.com.br)
 [![GitHub](https://img.shields.io/badge/@codexmark-111111?style=for-the-badge&logo=github&logoColor=white)](https://github.com/codexmark)
 
 </div>
@@ -20,23 +21,21 @@ Hoje concentro meu trabalho na interseção entre **engenharia de sistemas, segu
 
 ## Em foco agora — Kram
 
-<a href="https://github.com/codexmark/kram">
-  <img align="right" width="44%" src="https://github.com/user-attachments/assets/bf0bd4aa-4a17-4f73-a145-4b36b1fc146e" alt="Kram — local-first coding agent runtime" />
-</a>
-
 Estou construindo o **[Kram](https://github.com/codexmark/kram)**, um runtime *local-first* para agentes de programação, gateway multi-provider de LLMs e workspace de terminal — implementado do zero em **Go**.
 
-- binário único e multiplataforma;
-- agent loop com ferramentas, permissões e aprovações;
-- integração com **MCP** e **LSP**;
-- TUI com telemetria real de execução;
-- memória, sessões e estado persistidos localmente;
-- roteamento, fallback e normalização entre provedores de IA;
-- foco em confiabilidade, observabilidade e economia de contexto.
+Abaixo, sem edição: o provedor primário falha, o circuit breaker abre, o roteador cai para o próximo provedor do combo e o turno termina — tudo visível na própria UI.
 
-**[Conheça a arquitetura →](https://github.com/codexmark/kram#readme)**
+<a href="https://kram.codexmark.com.br">
+  <img src="./assets/kram-demo.gif" width="100%" alt="Kram em ação: provider primário falha, circuit breaker abre, fallback assume e responde — com o trail de roteamento visível na TUI" />
+</a>
 
-<br clear="right"/>
+**Evidência, não promessa:**
+- **93 decisões de arquitetura** documentadas (trade-offs, reversões e limites assumidos) em [`DECISIONS.md`](https://github.com/codexmark/kram/blob/master/DECISIONS.md);
+- release bloqueado por gate reproduzível: **piso de 90% de cobertura**, suite com `-race`, cross-build **para 6 plataformas** (Linux, macOS, Windows, Android/Termux) num binário único `CGO_ENABLED=0`;
+- turnos sobrevivem à queda do terminal, streams retomam do token onde pararam, e `Ctrl+G` desfaz o que um turno mudou — resiliência como arquitetura, não como retry solto;
+- agent loop com ferramentas, permissões e aprovações; **MCP** e **LSP** integrados; memória e sessões locais em SQLite.
+
+**[Site →](https://kram.codexmark.com.br)** · **[Arquitetura →](https://github.com/codexmark/kram#readme)**
 
 ## O que eu construo
 
@@ -48,7 +47,7 @@ Estou construindo o **[Kram](https://github.com/codexmark/kram)**, um runtime *l
     </td>
     <td width="50%" valign="top">
       <h3>◌ Segurança & baixo nível</h3>
-      Engenharia reversa, análise de memória, protocolos de rede, anti-cheat, hardening de aplicações, regras de firewall e fundamentos CompTIA Security+.
+      Engenharia reversa, análise de memória, protocolos de rede, anti-cheat, hardening de aplicações, regras de firewall e CompTIA Security+.
     </td>
   </tr>
   <tr>
@@ -72,26 +71,15 @@ Estou construindo o **[Kram](https://github.com/codexmark/kram)**, um runtime *l
 ![C++](https://img.shields.io/badge/C++-111111?style=flat-square&logo=cplusplus&logoColor=E05B66)
 ![Delphi](https://img.shields.io/badge/Delphi-111111?style=flat-square&logo=delphi&logoColor=E05B66)
 ![Ruby](https://img.shields.io/badge/Ruby-111111?style=flat-square&logo=ruby&logoColor=E05B66)
-![Rails](https://img.shields.io/badge/Rails-111111?style=flat-square&logo=rubyonrails&logoColor=E05B66)
 ![Python](https://img.shields.io/badge/Python-111111?style=flat-square&logo=python&logoColor=E05B66)
 
-**Produto e plataforma**
-
-![JavaScript](https://img.shields.io/badge/JavaScript-111111?style=flat-square&logo=javascript&logoColor=E05B66)
-![Node.js](https://img.shields.io/badge/Node.js-111111?style=flat-square&logo=nodedotjs&logoColor=E05B66)
-![Java](https://img.shields.io/badge/Java-111111?style=flat-square&logo=openjdk&logoColor=E05B66)
-![Android](https://img.shields.io/badge/Android-111111?style=flat-square&logo=android&logoColor=E05B66)
-![HTML5](https://img.shields.io/badge/HTML5-111111?style=flat-square&logo=html5&logoColor=E05B66)
-![CSS3](https://img.shields.io/badge/CSS3-111111?style=flat-square&logo=css3&logoColor=E05B66)
-
-**Dados, infraestrutura e ferramentas**
+**Dados e infraestrutura**
 
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-111111?style=flat-square&logo=postgresql&logoColor=E05B66)
-![MySQL](https://img.shields.io/badge/MySQL-111111?style=flat-square&logo=mysql&logoColor=E05B66)
 ![SQLite](https://img.shields.io/badge/SQLite-111111?style=flat-square&logo=sqlite&logoColor=E05B66)
-![Redis](https://img.shields.io/badge/Redis-111111?style=flat-square&logo=redis&logoColor=E05B66)
 ![Linux](https://img.shields.io/badge/Linux-111111?style=flat-square&logo=linux&logoColor=E05B66)
-![Git](https://img.shields.io/badge/Git-111111?style=flat-square&logo=git&logoColor=E05B66)
+
+<sub>Também navego por JavaScript/Node, Java/Android, Redis e o que o problema pedir — mas a lista acima é onde moro.</sub>
 
 ## Projetos selecionados
 
@@ -126,7 +114,7 @@ Essa origem ainda define meu jeito de trabalhar: entender o sistema por inteiro,
 
 ### Vamos construir algo difícil — e fazer funcionar de verdade.
 
-[LinkedIn](https://www.linkedin.com/in/raynermesquita) · [Projetos](https://github.com/codexmark?tab=repositories) · [Kram](https://github.com/codexmark/kram)
+[LinkedIn](https://www.linkedin.com/in/raynermesquita) · [Projetos](https://github.com/codexmark?tab=repositories) · [Kram](https://github.com/codexmark/kram) · [kram.codexmark.com.br](https://kram.codexmark.com.br)
 
 <sub>Porto Velho, Rondônia · Brasil</sub>
 
