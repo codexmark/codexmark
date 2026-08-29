@@ -87,9 +87,6 @@ Abaixo, sem edição: o provedor primário falha, o circuit breaker abre, o rote
 |---|---|---|
 | **[Kram](https://github.com/codexmark/kram)** | Agentes de código locais, observáveis e independentes de provedor | Go · LLM gateway · MCP · LSP · TUI · SQLite |
 | **[Req. Codex](https://github.com/codexmark/Req.)** | Elicitação e organização de requisitos com colaboração via Discord | JavaScript · Vercel Functions · Redis/Upstash · autenticação |
-| **[T-UI Launcher](https://github.com/codexmark/TUI-ConsoleLauncher-morto-)** | Modernização e hardening de um launcher Android em formato terminal | Java 17 · Android API 34 · OWASP MASVS · BusyBox |
-| **[Biblioteca IDEP](https://github.com/codexmark/Biblioteca_IDEP)** | Gestão educacional de acervo e usuários | Python · Flask · SQLite |
-| **[Codex Anti-Cheat](https://github.com/codexmark/CodexAC_RF-Online_Anti-Cheat)** | Proteção de clientes e servidores de RF Online | C/C++ · memória · análise de binários · defesa |
 | **[MikroTik Firewall Rules](https://github.com/codexmark/BasicMkFirewallrules)** | Hardening de borda contra scans, floods e tráfego inválido | RouterOS · filtros stateful · mitigação de ataques |
 
 ## Da curiosidade ofensiva à engenharia defensiva
