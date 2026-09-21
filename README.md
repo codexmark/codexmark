@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./assets/hero.svg" width="100%" alt="Rayner Mesquita — Software Engineer, Systems Builder" />
+<img src="./assets/hero.svg" width="100%" alt="Mark Ráyner Mesquita — Software Engineer, Systems Builder" />
 
 <br />
 
